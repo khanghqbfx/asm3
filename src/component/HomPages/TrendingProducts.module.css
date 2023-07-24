@@ -1,0 +1,36 @@
+.sub_head {
+    color: #999;
+    margin: 0;
+}
+
+.heading {
+    margin: 0 0 20px 0;
+}
+.top {
+    padding-left: 30px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    list-style: none;
+
+}
+.title li {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.img{
+    width: 300px;
+}
+
+.img:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+    transition:all .3s ease;
+}
+
